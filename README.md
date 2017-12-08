@@ -3,6 +3,15 @@
 [@yet_another_urban_dictionary_bot](https://t.me/yet_another_urban_dictionary_bot) | [GitHub](https://github.com/Nachtalb/yet_another_urban_dictionary_bot)
 
 <!-- toc -->
+
+- [How to use me](#how-to-use-me)
+- [Commands](#commands)
+- [My other bots](#my-other-bots)
+- [Contributions:](#contributions)
+  * [Bug report / Feature request](#bug-report--feature-request)
+  * [Code Contribution / Pull Requests](#code-contribution--pull-requests)
+  * [Local installation](#local-installation)
+
 <!-- tocstop -->
 
 ## How to use me
