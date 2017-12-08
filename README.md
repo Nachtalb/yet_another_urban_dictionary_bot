@@ -7,7 +7,7 @@
 - [How to use me](#how-to-use-me)
 - [Commands](#commands)
 - [My other bots](#my-other-bots)
-- [Contributions:](#contributions)
+- [Contributions](#contributions)
   * [Bug report / Feature request](#bug-report--feature-request)
   * [Code Contribution / Pull Requests](#code-contribution--pull-requests)
   * [Local installation](#local-installation)
@@ -31,7 +31,7 @@ Telegram
 - [@reverse_image_search_bot](https://t.me/reverse_image_search_bot) - Reverse image search directly in Telegram
 
 
-## Contributions:
+## Contributions
 ### Bug report / Feature request
 If you have found a bug or want a new feature, please make an issue here: [Nachtalb/yet_another_urban_dictionary_bot](https://github.com/Nachtalb/yet_another_urban_dictionary_bot)
 
