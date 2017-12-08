@@ -20,6 +20,7 @@ open the another app and this whole slow process.
 
 ## Commands
 - /help, /start: show this help message.
+- /define: The same as when you send me text directly, search on Urban Dictionary for it's definition.
 
 ## My other bots
 Please share this bot with your friends so that I ([the magician](https://github.com/Nachtalb/) behind this project) 
