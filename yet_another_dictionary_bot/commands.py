@@ -15,34 +15,34 @@ def start(bot: Bot, update: Update):
     """
     reply = """*Yet Another Urban Dictionary Bot* 
      
-    [@yet_another_urban_dictionary_bot](https://t.me/yet_another_urban_dictionary_bot) | [GitHub](https://github.com/Nachtalb/yet_another_urban_dictionary_bot) 
-     
-    *How to use me* 
-    Just send me any text and I try to find the definition in Urban Dictionary for you. Like this you don't have to 
-    extra open the another app and this whole slow process.
-     
-    *Commands* 
-    - /help, /start: show this help message with information about the bot and it's usage. 
-     
-    *My other bots*  
-    Please share this bot with your friends so that I ([the magician](https://github.com/Nachtalb/) behind this project)  
-    have enough motivation to continue and maintain this bot. 
-     
-    Check out my other project\[s\]: 
-    - [@insta_looter_bot](https://github.com/Nachtalb/insta_looter_bot) - Download images and videos from Instagram via 
-    Telegram
-    - [@reverse_image_search_bot](https://t.me/reverse_image_search_bot) - Reverse image search directly in  
-    Telegram
+[@yet_another_urban_dictionary_bot](https://t.me/yet_another_urban_dictionary_bot) | [GitHub](https://github.com/Nachtalb/yet_another_urban_dictionary_bot) 
+ 
+*How to use me* 
+Just send me any text and I try to find the definition in Urban Dictionary for you. Like this you don't have to 
+extra open the another app and this whole slow process.
+ 
+*Commands* 
+- /help, /start: show this help message with information about the bot and it's usage. 
+ 
+*My other bots*  
+Please share this bot with your friends so that I ([the magician](https://github.com/Nachtalb/) behind this project)  
+have enough motivation to continue and maintain this bot. 
+ 
+Check out my other project\[s\]: 
+- [@insta_looter_bot](https://github.com/Nachtalb/insta_looter_bot) - Download images and videos from Instagram via 
+Telegram
+- [@reverse_image_search_bot](https://t.me/reverse_image_search_bot) - Reverse image search directly in  
+Telegram
 
-    *Contributions* 
-    _Bug report / Feature request_ 
-    If you have found a bug or want a new feature, please make an issue here: [Nachtalb/yet_another_urban_dictionarybot](https://github.com/Nachtalb/yet_another_urban_dictionary_bot) 
-     
-    _Code Contribution / Pull Requests_ 
-    Please use a line length of 120 characters and [Google Style Python Docstrings](http://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html).  
-     
-    Thank you for using [@yet_another_urban_dictionary](https://t.me/yet_another_urban_dictionary_bot).
-    """
+*Contributions* 
+_Bug report / Feature request_ 
+If you have found a bug or want a new feature, please make an issue here: [Nachtalb/yet_another_urban_dictionarybot](https://github.com/Nachtalb/yet_another_urban_dictionary_bot) 
+ 
+_Code Contribution / Pull Requests_ 
+Please use a line length of 120 characters and [Google Style Python Docstrings](http://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html).  
+ 
+Thank you for using [@yet_another_urban_dictionary](https://t.me/yet_another_urban_dictionary_bot).
+"""
     update.message.reply_text(reply, parse_mode=ParseMode.MARKDOWN)
 
 
