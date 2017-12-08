@@ -55,6 +55,8 @@ def define(bot: Bot, update: Update, args: list = None):
         update (:obj:`telegram.update.Update`): Telegram Api Update Object
         args (:obj:`list`): List of sent arguments
     """
+    if update.message.reply_to_message is not None:
+        return
     word = update.message.text
     if args:
         word = ' '.join(args)
