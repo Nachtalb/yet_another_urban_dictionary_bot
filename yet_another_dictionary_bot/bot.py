@@ -47,6 +47,7 @@ def main():
 
     dispatcher.add_handler(CommandHandler('start', start))
     dispatcher.add_handler(CommandHandler('help', start))
+    dispatcher.add_handler(CommandHandler('define', define, pass_args=True))
     dispatcher.add_handler(CommandHandler('restart', restart, filters=Filters.user(username='@Nachtalb')))
 
     dispatcher.add_handler(MessageHandler(Filters.text, define))

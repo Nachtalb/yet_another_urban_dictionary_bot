@@ -46,14 +46,20 @@ Thank you for using [@yet_another_urban_dictionary](https://t.me/yet_another_urb
     update.message.reply_text(reply, parse_mode=ParseMode.MARKDOWN)
 
 
-def define(bot: Bot, update: Update):
+def define(bot: Bot, update: Update, args: list = None):
     """Search in dictionary
 
     Args:
         bot (:obj:`telegram.bot.Bot`): Telegram Api Bot Object.
         update (:obj:`telegram.update.Update`): Telegram Api Update Object
+        args (:obj:`list`): List of sent arguments
     """
-    definitions = ud.define(update.message.text)
+    word = update.message.text
+    if args:
+        word = ' '.join(args)
+
+    definitions = ud.define(word)
+
     best = definitions[0]
     reply = """
 *Definition for [{word}]*
