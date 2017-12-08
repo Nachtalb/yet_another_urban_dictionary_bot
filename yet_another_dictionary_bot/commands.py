@@ -60,6 +60,9 @@ def define(bot: Bot, update: Update, args: list = None):
 
     definitions = ud.define(word)
 
+    if not definitions:
+        update.message.reply_text('Could not find anything for: %s' % update.message.text)
+        return
     best = definitions[0]
     reply = """
 *Definition for [{word}]*
