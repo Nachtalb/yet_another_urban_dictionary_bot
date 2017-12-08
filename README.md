@@ -19,8 +19,7 @@ have enough motivation to continue and maintain this bot.
 Check out my other project\[s\]: 
 - [@insta_looter_bot](https://github.com/Nachtalb/insta_looter_bot) - Download images and videos from Instagram via 
 Telegram
-- [@reverse_image_search_bot](https://t.me/reverse_image_search_bot) - Reverse image search directly in  
-Telegram
+- [@reverse_image_search_bot](https://t.me/reverse_image_search_bot) - Reverse image search directly in Telegram
 
 
 ## Contributions:
