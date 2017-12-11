@@ -106,3 +106,5 @@ download_as_gif/out/
 download_as_gif/source/
 settings.py
 media/
+tmp/
+log/
